@@ -21,16 +21,16 @@ export default function Index() {
 
   const [modal, setModal] = useState(false)
 
-  const [recipes, setRecipes] = useState({
-    "results": [{
-      "image": "https://img.spoonacular.com/recipes/642722-312x231.jpg",
-      "title": "Shrimp, Bacon, Avocado Pasta Salad",
-      "id": 667704,
-    }],
-    "offset": 0,
-    "totalResults": 1
-  })
-  //const [recipes, setRecipes] = useState(null)
+  //const [recipes, setRecipes] = useState({
+  //  "results": [{
+  //    "image": "https://img.spoonacular.com/recipes/642722-312x231.jpg",
+  //    "title": "Shrimp, Bacon, Avocado Pasta Salad",
+  //    "id": 667704,
+  //  }],
+  //  "offset": 0,
+  //  "totalResults": 1
+  //})
+  const [recipes, setRecipes] = useState(null)
 
   //const suggestRecipes = recipesForDay
   const [suggestRecipes, setSuggestRecipes] = useState(null)
